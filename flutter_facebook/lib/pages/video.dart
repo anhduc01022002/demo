@@ -85,13 +85,11 @@ class _VideoPageState extends State<VideoPage> {
 
   Container Newsfeed() {
     return Container(
-      height: 660,
       color: Color(0xFFCCCCCC),
       child: ListView.separated(
         itemBuilder: (context, index) {
           return Container(
             width: double.infinity,
-            height: 350,
             decoration: BoxDecoration(color: Color(0xFFFFFFFF)),
             child: Padding(
               padding: EdgeInsets.only(top: 10),
